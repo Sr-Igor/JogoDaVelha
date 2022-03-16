@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 41, 41);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.box-game{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.col{
+    width: 30px;
+    height: 30px;
+    
+    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a3,.b3,.c3{
+    border-right: none;
+}
+
+.c1,.c2,.c3{
+    border-bottom: none;
+}
+
+.info-box{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+.results{
+    text-align: center;
+}
